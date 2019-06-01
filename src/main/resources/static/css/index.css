@@ -1,0 +1,29 @@
+
+h1 {
+    position: center;
+    color: wheat;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:50px;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    /*background: orange;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+button {
+    width: 350px;
+    height: 80px;
+    background-image: radial-gradient(#021027, #000000);
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    opacity: 0%;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>插入关系</title>
+    <link href="../css/background.css" rel="stylesheet">
+    <link href="../css/nodes.css" rel="stylesheet">
+</head>
+<body>
+<table class="table-right" >
+    <tr>
+        <td>选择Label</td>
+        <td>
+            <select class="label-selsct">
+                <option>Person</option>
+                <option>Department</option>
+                <option>Movie</option>
+                <option>Action</option>
+                <option>Actor</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>插入关系属性</td>
+        <td align="right">Name:</td>
+        <td >
+            <input placeholder="请输入插入关系名称" style="width: 200px;height: 30px;font-size: 15px">
+        </td>
+        <td align="right">Value:</td>
+        <td >
+            <input placeholder="请输入插入关系值" style="width: 150px;height: 30px;font-size: 15px">
+        </td>
+    </tr>
+    <tr>
+        <td>起始节点属性</td>
+        <td align="right">Name:</td>
+        <td >
+            <input placeholder="请输入起始节点属性名称" style="width: 200px;height: 30px;font-size: 15px">
+        </td>
+        <td align="right">Value:</td>
+        <td >
+            <input placeholder="请输入起始节点属性值" style="width: 150px;height: 30px;font-size: 15px">
+        </td>
+    </tr>
+
+    <tr>
+        <td>终止节点属性</td>
+        <td align="right">Name:</td>
+        <td >
+            <input placeholder="请输入终止节点属性名称" style="width: 200px;height: 30px;font-size: 15px">
+        </td>
+        <td align="right">Value:</td>
+        <td >
+            <input placeholder="请输入终止节点属性值" style="width: 150px;height: 30px;font-size: 15px">
+        </td>
+    </tr>
+
+
+
+    <tr>
+        <td align="center" colspan="8">
+            <button  style="font-size: 20px;" class="tip tip-right" data-tip="继续插入关系">+</button>
+        </td>
+    </tr>
+
+</table>
+
+<div style="margin-top: 50px;text-align: center;width: 75%;">
+    <button type="submit" class="insert">确定插入</button>
+</div>
+</div>
+
+</body>
+</html>

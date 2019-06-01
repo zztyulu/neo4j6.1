@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="ajax方式">
+    <title>CIM模型解析</title>
+    <link href="../css/csv.css" rel="stylesheet">
+    <link href="../css/background.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        function insert() {
+            $.ajax({
+                //几个参数需要注意一下
+                type: "POST",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "/xml/insert" ,//url
+                data: $('#form1').serialize(),
+                success: function (result) {
+                    console.log(result);//打印服务端返回的数据(调试用)
+                    if (result.resultCode == 200) {
+                        alert("SUCCESS");
+                    }
+                    ;
+                },
+                error : function() {
+                    alert("SUCCESS！");
+                }
+            });
+        }
+    </script>
+
+</head>
+<body>
+<h1>CIM模型解析</h1>
+<div class="container">
+    <form id="form1" onsubmit="return false" action="##" method="post">
+    <input name="num1" type="text" placeholder="请选择需要导入的xml文件">
+    <br>
+    <input name="num2" type="text" placeholder="请选择生成的日志文件路径">
+    <br>
+    <input name="num3" type="text" placeholder="请选择生成的三元组文件路径">
+    <br>
+    <p><input type="button" value="解析三元组" onclick="jiexi()" style="background-color: burlywood"></p>
+    <br><p><input type="button" value="确定导入" onclick="insert()" style="background-color: #99ffff;margin-top: 30px"></p>
+
+    </form>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+</div>
+
+</body>
+</html>

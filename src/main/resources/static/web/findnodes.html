@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找实体</title>
+    <link href="../css/nodes.css" rel="stylesheet">
+    <link href="../css/background.css" rel="stylesheet">
+</head>
+<body>
+<div style="text-align: center;margin-left: 20px"  id="delete-right" >
+
+    <table class="table-right" >
+        <tr>
+        <td>选择Label</td>
+        <td>
+            <select id="label" class="label-selsct">
+                <option>Person</option>
+                <option>Department</option>
+                <option>设备检修项目</option>
+                <option>Action</option>
+                <option>Actor</option>
+            </select>
+        </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input id="key1" placeholder="请输入查找实体属性名称" style="width: 250px;height: 30px;font-size: 20px">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input id="value1" placeholder="请输入查找实体属性值" style="width: 200px;height: 30px;font-size: 20px">
+            </td>
+        </tr>
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input id="key2" placeholder="请输入查找实体属性名称" style="width: 250px;height: 30px;font-size: 20px">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input id="value2" placeholder="请输入查找实体属性值" style="width: 200px;height: 30px;font-size: 20px">
+            </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input id="key3" placeholder="请输入查找实体属性名称" style="width: 250px;height: 30px;font-size: 20px">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input id="value3" placeholder="请输入查找实体属性值" style="width: 200px;height: 30px;font-size: 20px">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="8">
+                <button  style="font-size: 30px;width: 50px" class="tip tip-right" data-tip="继续查找实体">+</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <div style="margin-top: 50px;text-align: center;width: 75%;">
+        <button onclick="findNodefuc()"  class="insert">查找</button>
+    </div>
+</div>
+
+</body>
+</html>

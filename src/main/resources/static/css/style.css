@@ -1,0 +1,30 @@
+body {
+    /*width: 640px;*/
+    /*height: 480px;*/
+    /*background-color: orange;*/
+}
+
+h1 {
+    position: center;
+    color: blue;
+    text-align: center;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background: orange;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+button {
+    width: 240px;
+    height: 80px;
+    background-color: darkkhaki;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
