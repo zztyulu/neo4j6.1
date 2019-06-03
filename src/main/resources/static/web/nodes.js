@@ -83,9 +83,7 @@ function insertRelation(url) {
     }
     xmlhttp.open("GET",url,true);
     xmlhttp.send();
-
 }
-
 
 function deleteRelation(url) {
     var xmlhttp;

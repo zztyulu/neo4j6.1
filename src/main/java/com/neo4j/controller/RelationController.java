@@ -24,17 +24,17 @@ public class RelationController {
 
     @Autowired
     private RelationshipService relationshipService;
-   /* @Autowired
-    private IPersonService personService;*/
-   @RequestMapping(path = "/test", method = RequestMethod.POST)
-   public void test(@RequestBody BaseNode baseNode)
-   {
-       System.out.println(baseNode);
+    /* @Autowired
+     private IPersonService personService;*/
+    @RequestMapping(path = "/test", method = RequestMethod.POST)
+    public void test(@RequestBody BaseNode baseNode)
+    {
+        System.out.println(baseNode);
 
 
-   }
+    }
 
-    @RequestMapping(path = "/test1", method = RequestMethod.POST)
+    @RequestMapping(path = "/addRe", method = RequestMethod.POST)
     public void test(@RequestBody Relationship personRelationshipVO) {
       /*  String lable = node.getLable();
         List<Pro> propertys = node.getProperty();
@@ -47,8 +47,42 @@ public class RelationController {
         String s = "dad";
         //  StatementResult result =session.run(relationcreate);
         //语句出错怎么办？  怎么判断成功
-        StatementResult result = session.run(s);
+        StatementResult result = session.run(relationcreate);
 
         session.close();
     }
+
+    @RequestMapping(path = "/deleteRe", method = RequestMethod.POST)
+    public void deleteRe(@RequestBody Relationship personRelationshipVO) {
+
+        System.out.println("删除 ");
+        String relationcreate = relationshipService.DeleteRelationship(personRelationshipVO);
+        Session session = driver.session();
+        String s = "dad";
+        //  StatementResult result =session.run(relationcreate);
+        //语句出错怎么办？  怎么判断成功
+        StatementResult result = session.run(relationcreate);
+
+        session.close();
+    }
+
+    @RequestMapping(path = "/modifyRe", method = RequestMethod.POST)
+    public void modifyRe(@RequestBody Relationship personRelationshipVO) {
+        Session session = driver.session();
+
+        System.out.println("修改关系 ");
+        //首先删除关系
+        String relationcreate = relationshipService.DeleteRelationship(personRelationshipVO);
+        session.run(relationcreate);
+        //然后添加关系
+        relationcreate = relationshipService.AddRelationship(personRelationshipVO);
+        session.run(relationcreate);
+        String s = "dad";
+
+        //语句出错怎么办？  怎么判断成功
+    //    StatementResult result = session.run(relationcreate);
+
+        session.close();
+    }
+
 }
