@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>查找关系</title>
+    <title>关系</title>
+    <link href="../css/relation.css" rel="stylesheet">
     <link href="../css/background.css" rel="stylesheet">
 </head>
 <body>
-
-<div style="text-align: center;margin-left: 20px"  id="delete-right" >
+<div style="text-align: center;margin-left: 20px;margin-bottom: 20px"  id="delete-right1" >
 
     <table class="table-right" >
         <tr>
-            <td>请重新选择Label</td>
+            <td align="center" colspan="3">起始节点</td>
+            <td>选择Label</td>
             <td>
-                <select class="label-selsct">
+                <select id="label1" class="label-selsct">
                     <option>Person</option>
                     <option>Department</option>
-                    <option>Movie</option>
+                    <option>设备检修项目</option>
                     <option>Action</option>
                     <option>Actor</option>
                 </select>
@@ -24,51 +25,179 @@
         </tr>
 
         <tr>
-            <td>插入关系属性</td>
+            <td>属性</td>
             <td align="right">Name:</td>
             <td >
-                <input placeholder="请输入插入关系名称" style="width: 200px;height: 30px;font-size: 15px">
+                <input class="input-style" id="key1-1" placeholder="请输入查找实体属性名称">
             </td>
             <td align="right">Value:</td>
             <td >
-                <input placeholder="请输入插入关系值" style="width: 150px;height: 30px;font-size: 15px">
+                <input class="input-style" id="value1-1" placeholder="请输入查找实体属性值">
             </td>
         </tr>
         <tr>
-            <td>起始节点属性</td>
+            <td>属性</td>
             <td align="right">Name:</td>
             <td >
-                <input placeholder="请输入起始节点属性名称" style="width: 200px;height: 30px;font-size: 15px">
+                <input class="input-style" id="key1-2" placeholder="请输入查找实体属性名称">
             </td>
             <td align="right">Value:</td>
             <td >
-                <input placeholder="请输入起始节点属性值" style="width: 150px;height: 30px;font-size: 15px">
-            </td>
-        </tr>
-
-        <tr>
-            <td>终止节点属性</td>
-            <td align="right">Name:</td>
-            <td >
-                <input placeholder="请输入终止节点属性名称" style="width: 200px;height: 30px;font-size: 15px">
-            </td>
-            <td align="right">Value:</td>
-            <td >
-                <input placeholder="请输入终止节点属性值" style="width: 150px;height: 30px;font-size: 15px">
+                <input class="input-style" id="value1-2" placeholder="请输入查找实体属性值">
             </td>
         </tr>
 
         <tr>
-            <td align="center" colspan="8">
-                <button  style="font-size: 20px;" class="tip tip-right" data-tip="继续查找关系">+</button>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key1-3" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value1-3" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="3">
+                <button  style="font-size: 20px;width: 50px" class="tip tip-right" data-tip="继续查找实体">+</button>
+            </td>
+            <td style="text-align: center" align="center" colspan="8">
+                <button onclick="findNodefuc()"  class="insert">查找</button>
+
             </td>
         </tr>
 
     </table>
+</div>
 
-    <div style="margin-top: 50px;text-align: center;width: 75%;">
-        <button type="submit" class="insert">确定查找</button>
-    </div>
+<div style="text-align: center;margin-left: 20px;margin-bottom: 20px"  id="delete-right2" >
+
+    <table class="table-right" >
+        <tr>
+            <td align="center" colspan="3">终止节点</td>
+            <td>选择Label</td>
+            <td>
+                <select id="label2" class="label-selsct">
+                    <option>Person</option>
+                    <option>Department</option>
+                    <option>设备检修项目</option>
+                    <option>Action</option>
+                    <option>Actor</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key2-1" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value2-1" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key2-2" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value2-2" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key2-3" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value2-3" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="3">
+                <button  style="font-size: 20px;width: 50px" class="tip tip-right" data-tip="继续查找实体">+</button>
+            </td>
+            <td style="text-align: center" align="center" colspan="8">
+                <button onclick="findNodefuc()"  class="insert">查找</button>
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+<div style="text-align: center;margin-left: 20px"  id="delete-right3" >
+
+    <table class="table-right" >
+        <tr>
+            <td align="center" colspan="3">节点关系</td>
+            <td>选择Label</td>
+            <td>
+                <select id="label3" class="label-selsct">
+                    <option>Person</option>
+                    <option>Department</option>
+                    <option>设备检修项目</option>
+                    <option>Action</option>
+                    <option>Actor</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key3-1" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value3-1" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key3-2" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value3-2" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+
+        <tr>
+            <td>属性</td>
+            <td align="right">Name:</td>
+            <td >
+                <input class="input-style" id="key3-3" placeholder="请输入查找实体属性名称">
+            </td>
+            <td align="right">Value:</td>
+            <td >
+                <input class="input-style" id="value3-3" placeholder="请输入查找实体属性值">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="3">
+                <button  style="font-size: 20px;width: 50px" class="tip tip-right" data-tip="继续查找实体">+</button>
+            </td>
+            <td style="text-align: center" align="center" colspan="8">
+                <button onclick="findNodefuc()"  class="insert">查找</button>
+            </td>
+        </tr>
+
+    </table>
 </div>
 
 </body>
