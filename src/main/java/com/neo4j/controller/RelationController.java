@@ -30,8 +30,6 @@ public class RelationController {
     public void test(@RequestBody BaseNode baseNode)
     {
         System.out.println(baseNode);
-
-
     }
 
     @RequestMapping(path = "/addRe", method = RequestMethod.POST)

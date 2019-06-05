@@ -1,4 +1,4 @@
-package com.neo4j.config;
+package com.neo4j.test;
 
 import org.neo4j.graphdb.RelationshipType;
 
