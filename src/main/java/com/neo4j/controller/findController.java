@@ -29,6 +29,8 @@ public class findController {
     @Autowired
     private NodeService nodeService;
 
+    //JSONObject jsonObject = new JSONObject();
+
 
     @RequestMapping(path = "/find", method = RequestMethod.POST)
     public Map<String, Object> find(@RequestBody BaseNode node) {
