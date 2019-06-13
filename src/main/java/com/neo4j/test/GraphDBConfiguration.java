@@ -5,7 +5,7 @@
  * @创建时间: 2019-01-22 11:56
  * @版本: V1.0
  */
-package com.neo4j.config;
+package com.neo4j.test;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;

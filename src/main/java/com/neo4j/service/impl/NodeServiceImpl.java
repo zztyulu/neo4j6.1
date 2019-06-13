@@ -1,6 +1,6 @@
 package com.neo4j.service.impl;
 
-import com.neo4j.config.Labels;
+import com.neo4j.test.Labels;
 import com.neo4j.domain.base.abs.Pro;
 import com.neo4j.service.NodeService;
 

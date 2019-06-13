@@ -1,4 +1,4 @@
-package com.neo4j.config;
+package com.neo4j.test;
 
 import java.io.DataInputStream;
 import java.io.IOException;

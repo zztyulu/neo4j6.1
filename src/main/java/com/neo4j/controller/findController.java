@@ -1,5 +1,5 @@
 package com.neo4j.controller;
-import com.neo4j.config.Labels;
+import com.neo4j.test.Labels;
 import com.neo4j.domain.base.abs.Pro;
 import com.neo4j.domain.base.abs.BaseNode;
 import com.neo4j.domain.base.abs.Relationship;
@@ -28,6 +28,8 @@ public class findController {
 
     @Autowired
     private NodeService nodeService;
+
+    //JSONObject jsonObject = new JSONObject();
 
 
     @RequestMapping(path = "/find", method = RequestMethod.POST)

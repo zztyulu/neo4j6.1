@@ -1,7 +1,4 @@
 /**
- * @Copyright (C) 2019 广州金鹏集团有限公司.
- * 本系统是商用软件,未经授权擅自复制或传播本程序的部分或全部将是非法的.
- * @创建人: 赵力
  * @创建时间: 2019-01-22 14:02
  * @版本: V1.0
  */
@@ -33,8 +30,6 @@ public class RelationController {
     public void test(@RequestBody BaseNode baseNode)
     {
         System.out.println(baseNode);
-
-
     }
 
     @RequestMapping(path = "/addRe", method = RequestMethod.POST)
