@@ -26,6 +26,9 @@ public class RelationController {
     private RelationshipService relationshipService;
     /* @Autowired
      private IPersonService personService;*/
+
+
+
     @RequestMapping(path = "/test", method = RequestMethod.POST)
     public void test(@RequestBody BaseNode baseNode)
     {

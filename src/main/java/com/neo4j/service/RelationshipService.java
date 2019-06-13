@@ -8,4 +8,5 @@ public interface RelationshipService {
     public String AddRelationship(Relationship relationship);
     //根据已经有的节点创建关系
     public String DeleteRelationship(Relationship relationship);
+    //修改标签的名称 
 }
