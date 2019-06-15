@@ -1,0 +1,56 @@
+//全局变量
+var curPage = 1; //当前页码
+var total,pageSize,totalPage; //总记录数，每页显示数，总页数
+
+
+//搜索功能,提交ajax数据到后台
+function searchclick() {
+var html ='';
+var search = $("#account").val();
+
+console.log(search);
+var inputdata = {'search':search};
+$.ajax({
+type:"post",
+url:"/Aiserach",
+type:'POST',
+dataType:'json',  //json 返回值类型
+data: JSON.stringify(inputdata),//  转化为json字符串
+contentType:"application/json;charset=utf-8",    //告诉后台 我发送的是JSON字符串  必须有
+success: function (data) {
+if(data.code==200)
+{
+
+console.log(data.object);
+var str="";
+for(var j = 0,len = data.object.length; j < len; j++){
+str+="<tr>"+
+    "<td>"+data.object[j].title+"</td>"+
+    "<td>"+data.object[j].content+"</td>"+
+    "<td>"+data.object[j].path+"</td>"+
+    "</tr>";
+
+document.getElementById("tbodydata").innerHTML=str;   //将对应table的内容设置为str
+}
+
+
+$.each(data.object,function(no,items){
+//这一步是显示数据的关键，each方法可以遍历二维数组数据
+//data.data：php返回的数据；
+//no：键值；
+//items:内层数组内容
+//拼接数据
+html+= '<div ><div class="name_box">名字：'+items.title+
+    ' </div><div class="phone">电话：'+items.content+
+    '</div><div class="detail"><a href="'+items.path+'">' +
+    '详情</a></div> </div>'
+});
+$('.search_show').html(html)//显示数据，同时覆盖上一次搜索的数据*/
+}else if(data.code=400)
+{
+console.log("22");
+alert("数据不存在");
+}
+}
+});
+}

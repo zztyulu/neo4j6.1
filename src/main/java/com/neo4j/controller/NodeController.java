@@ -1,8 +1,4 @@
-/**
- * @创建人: z'z'y
- * @创建时间: 2019-01-22 14:02
- * @版本: V1.0
- */
+
 package com.neo4j.controller;
 
 import com.neo4j.domain.base.abs.Pro;
