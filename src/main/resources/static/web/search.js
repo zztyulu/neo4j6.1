@@ -1,3 +1,12 @@
+/*
+* @program:  enginegraph
+ * @description:  智能搜索js
+ * @author: liuchenyang
+ * @create: 2019-06-15 15.49
+
+**/
+
+
 var pageSize=$("#pageSize").val();
 var pageNum=$("#pageNum").val();
 //得到总页数
