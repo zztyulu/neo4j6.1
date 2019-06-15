@@ -86,6 +86,7 @@ function research() {
 }
 function page(){
     //将除模板行的thead删除，即删除之前的数据重新加载
+    document.getElementById("div1").style.visibility="visible";//显示标签
     $("thead").eq(0).nextAll().remove();
 
     //当前记录开始数
@@ -211,6 +212,7 @@ function search(){
             }
             else if(data.code==400)
             {
+                document.getElementById("div1").style.visibility="hidden";//显示标签
                 alert("数据不存在");
             }
         }

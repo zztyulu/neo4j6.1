@@ -19,7 +19,7 @@ import java.util.List;
 public class NodeController {
 
 
-    Driver driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "root" ));
+    private  Driver driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "root" ));
 
     @Autowired
     private NodeService nodeService;

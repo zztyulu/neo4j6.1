@@ -34,7 +34,7 @@ import java.util.List;
 @RestController
 public class AisearchController {
 
-    private static String REST_API = "http://localhost:5003/search_info/";
+    private  String REST_API = "http://localhost:5003/search_info/";
 
     @RequestMapping("/Aiserach")
     public Object search (@RequestBody String search)

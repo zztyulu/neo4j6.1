@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class RelationController {
 
-    Driver driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "root" ));
+    private  Driver driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "root" ));
 
     @Autowired
     private RelationshipService relationshipService;
