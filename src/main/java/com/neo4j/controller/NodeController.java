@@ -1,6 +1,7 @@
 
 package com.neo4j.controller;
 
+import com.neo4j.Config.Neo4jconfig;
 import com.neo4j.domain.base.abs.Pro;
 import com.neo4j.domain.base.abs.BaseNode;
 import com.neo4j.domain.base.abs.Relationship;
@@ -19,7 +20,7 @@ import java.util.List;
 public class NodeController {
 
 
-    private  Driver driver = GraphDatabase.driver( "bolt://localhost:7687", AuthTokens.basic( "neo4j", "root" ));
+    private  Driver driver = Neo4jconfig.driver;
 
     @Autowired
     private NodeService nodeService;

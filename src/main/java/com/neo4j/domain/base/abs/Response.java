@@ -10,7 +10,10 @@ package com.neo4j.domain.base.abs;
 
 
 public class Response {
-    private int code;   //状态码
+    /*
+      状态码code  200 正确 406 字符串解析错误
+    */
+    private int code;
     private Object object;   //返回实体
 
     public int getCode() {

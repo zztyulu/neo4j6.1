@@ -74,6 +74,7 @@ public class AisearchController {
             return response1;
         }catch (Exception e)
         {
+            e.printStackTrace();
             response1.setCode(400);
             return response1;
         }

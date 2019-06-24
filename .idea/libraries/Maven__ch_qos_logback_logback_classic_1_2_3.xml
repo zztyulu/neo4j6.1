@@ -2,6 +2,7 @@
   <library name="Maven: ch.qos.logback:logback-classic:1.2.3">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
+      <root url="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar!/" />

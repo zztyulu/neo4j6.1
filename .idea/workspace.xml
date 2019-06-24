@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943c718d-21a7-457e-9260-8d4f397d2074" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/Config/Neo4jconfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCReturnSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/DataLD.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/Field.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/ReturnSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Data.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Source.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/SourceCollection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICAfferentParameter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICReturnSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/tablenumchecking/Msg.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/tablenumchecking/returnSource.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/enginegraph.iml" afterPath="$PROJECT_DIR$/enginegraph.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/RelationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/RelationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/search.html" afterPath="$PROJECT_DIR$/src/main/resources/static/web/search.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/service/impl/NodeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/service/impl/NodeServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/web/search.js" afterPath="$PROJECT_DIR$/src/main/resources/static/web/search.js" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/neo4j/EngineGraphApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/neo4j/EngineGraphApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,30 +58,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RelationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/RelationController.java">
+      <file leaf-file-name="dataauditController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="407" column="35" lean-forward="true" selection-start-line="407" selection-start-column="35" selection-end-line="407" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/search.html">
+      <file leaf-file-name="FICAfferentParameter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICAfferentParameter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="25">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,59 +101,69 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/search.js">
+      <file leaf-file-name="Neo4jconfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/Config/Neo4jconfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="214" column="72" lean-forward="false" selection-start-line="214" selection-start-column="72" selection-end-line="214" selection-end-column="72" />
+            <state relative-caret-position="150">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java">
+      <file leaf-file-name="LaunchedURLClassLoader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/LaunchedURLClassLoader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AisearchController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java">
+      <file leaf-file-name="Launcher.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/Launcher.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/CsvController.java">
+      <file leaf-file-name="JarFileArchive.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/archive/JarFileArchive.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="150">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/findController.java">
+      <file leaf-file-name="ExecutableArchiveLauncher.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/ExecutableArchiveLauncher.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JarLauncher.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/JarLauncher.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -139,10 +176,10 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,35 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/abs/AllBaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/node/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/abs/Property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/BaseNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/RelationshipTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/Labels.java" />
-        <option value="$PROJECT_DIR$/src/main/java/njust/config/GraphDBConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/GrapthDbTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/pojo/vo/PersonRelationshipVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/abs/MyPro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/abs/Pro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/njust/config/GrapthDbTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/njust/config/xmlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/service/NodeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/njust/config/SingleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/AllBaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/controller/findController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/xmlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/domain/base/abs/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/controller/xmlController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/controller/NodeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/service/impl/NodeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ikcai/enginegraph/config/SingleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nggnn" />
-        <option value="$PROJECT_DIR$/test1" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/nodes.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/web/findrelation.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/nodes.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/deletenodes.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/deleterelation.html" />
@@ -210,15 +218,44 @@
         <option value="$PROJECT_DIR$/src/main/resources/Security.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/neo4j/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/hello.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/hello.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/test1.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/RelationController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/search.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/web/search.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/source.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/neo4j/EngineGraphApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/service/impl/NodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/Only.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/returnSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Msg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Source.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/SourceCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Msg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Source.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/SourceCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/returnSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/Msg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/TableStructureChecking/Msg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/TableStructureChecking/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/TableStructureChecking/ReturnSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/TableStructureChecking/DataLD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/DataLD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCReturnSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICAfferentParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICReturnSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/Config/Neo4jconfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java" />
       </list>
     </option>
   </component>
@@ -275,9 +312,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,6 +375,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dataauditController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,7 +419,71 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="neo4j" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="abs" type="462c0819:PsiDirectoryNode" />
+              <item name="DataAudit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="fieldIntegrityChecking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="fieldIntegrityChecking" type="462c0819:PsiDirectoryNode" />
+              <item name="FICReturnSource" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="tablenumchecking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="TableRecordsChecking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="TableStructureChecking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
@@ -387,15 +499,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neo4j6.1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neo4j6.1" type="b2602c69:ProjectViewProjectNode" />
@@ -453,11 +556,15 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4418079" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\neo4j\neo4j6.1\src\main\java\com\neo4j\controller" />
       <recent name="D:\project\neo4j\neo4j6.1\src\main\resources\static\css" />
       <recent name="D:\project\neo4j\neo4j6.1\src\main\resources\static\web" />
       <recent name="F:\neo4j\enginegraph\src\main\java\njust" />
@@ -733,7 +840,9 @@
       <workItem from="1560348478194" duration="2602000" />
       <workItem from="1560410817143" duration="11000" />
       <workItem from="1560438864853" duration="6187000" />
-      <workItem from="1560501875674" duration="20640000" />
+      <workItem from="1560501875674" duration="22148000" />
+      <workItem from="1560933705595" duration="1446000" />
+      <workItem from="1561099676153" duration="39758000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559380680381</created>
@@ -791,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560575093287</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="6/13  search.html search.js 添加了隐藏标签功能">
+      <created>1560595447150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560595447150</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185969000" />
+    <option name="totallyTimeSpent" value="228681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,38 +927,38 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.312026" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28624734" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13432837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2936078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4936034" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.312026" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24200426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4914712" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2457356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,7 +971,9 @@
     <MESSAGE value="test" />
     <MESSAGE value="6/13" />
     <MESSAGE value="6/13  serach.js AisearchController Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/13  serach.js AisearchController Response" />
+    <MESSAGE value="6/13  search.html search.js 添加了隐藏标签功能" />
+    <MESSAGE value="6/24 主要添加了dataauditController 作为数据审计模块&#10;后续人员主要关注请求路径请求参数，返回值即可" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/24 主要添加了dataauditController 作为数据审计模块&#10;后续人员主要关注请求路径请求参数，返回值即可" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -920,8 +1038,20 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -930,157 +1060,440 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.14/tomcat-embed-core-9.0.14.jar!/org/apache/catalina/core/StandardWrapperValve.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.4.0/neo4j-graphdb-api-3.4.0.jar!/org/neo4j/graphdb/Relationship.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.14/tomcat-embed-core-9.0.14.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/insertnodes.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="84" column="55" lean-forward="false" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
+        <state relative-caret-position="157">
+          <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/relation.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4206">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="436" column="0" lean-forward="false" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/findnodes-result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4425">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/csv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/findrelation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="197" column="7" lean-forward="false" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/deletenodes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/service/NodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Pro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/BaseNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Relationship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/insertrelation.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="197" selection-end-column="7" />
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/modifyrelation.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="192" column="42" lean-forward="false" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
+        <state relative-caret-position="175">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/deleterelation.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="192" column="42" lean-forward="false" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/service/RelationshipService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/service/impl/RelationshipServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/service/impl/NodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="157">
+          <caret line="566" column="0" lean-forward="false" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="-725">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/xmlController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="-575">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/neo4j/EngineGraphApplicationTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="1579" column="21" lean-forward="false" selection-start-line="1579" selection-start-column="21" selection-end-line="1579" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/Only.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/tablenumchecking/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/BaseNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Pro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Relationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/TableStructureChecking/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/SourceCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#182#183#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="389" column="31" lean-forward="false" selection-start-line="389" selection-start-column="31" selection-end-line="389" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="324" column="11" lean-forward="false" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk8/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk8/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="64" column="112" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/tablenumchecking/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#592#593#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/tablenumchecking/returnSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#836#837#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#929#930#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/ReturnSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1029#1030#0" expanded="false" />
+            <element signature="e#1083#1084#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1164#1165#0" expanded="false" />
+            <element signature="e#1195#1196#0" expanded="false" />
+            <element signature="e#1249#1250#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1335#1336#0" expanded="false" />
+            <element signature="e#1372#1373#0" expanded="false" />
+            <element signature="e#1437#1438#0" expanded="false" />
+            <element signature="e#1489#1490#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#446#447#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableStructureChecking/DataLD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#224#225#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/TableRecordsChecking/TRCReturnSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/After.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/WarLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/archive/Archive.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/archive/ExplodedArchive.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/ExecutableArchiveLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/JarLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/util/SystemPropertyUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2475">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/PropertiesLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/MainMethodRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -1088,231 +1501,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/config/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Security.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/xmlTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/GraphDBConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/DataAudit/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="250">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/archive/JarFileArchive.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/GrapthDbTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICReturnSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/RelationshipTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/test/RestfulHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/EngineGraphApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
-            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/State.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+    <entry file="jar://D:/1/【最终版】数据资源管理/web-1.0-SNAPSHOT.jar!/org/springframework/boot/loader/LaunchedURLClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/findnodes.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/Config/Neo4jconfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#4;n#tr#3;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="151" column="20" lean-forward="true" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="69" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/abs/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/nodes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/nodes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/relations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1531">
-          <caret line="176" column="20" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/AisearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/CsvController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/findController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/NodeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/RelationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/domain/base/fieldIntegrityChecking/FICAfferentParameter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="25">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#ul#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/web/search.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="214" column="72" lean-forward="false" selection-start-line="214" selection-start-column="72" selection-end-line="214" selection-end-column="72" />
+        <state relative-caret-position="399">
+          <caret line="407" column="35" lean-forward="true" selection-start-line="407" selection-start-column="35" selection-end-line="407" selection-end-column="35" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,6 +1619,65 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4418079" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>enginegraph</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4418079" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1327,6 +1685,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4418079" />
               </list>
             </option>
           </splitter-proportions>

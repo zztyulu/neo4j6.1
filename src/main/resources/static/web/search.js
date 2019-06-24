@@ -212,7 +212,7 @@ function search(){
             }
             else if(data.code==400)
             {
-                document.getElementById("div1").style.visibility="hidden";//显示标签
+                document.getElementById("div1").style.visibility="hidden";//隐藏标签
                 alert("数据不存在");
             }
         }
