@@ -849,7 +849,7 @@ Bold.prototype = {
  */
 
 var replaceLang = function (editor, str) {
-    var langArgs = editor.config.langArgs || [];
+    var langArgs = com.neo4j.Config.langArgs || [];
     var result = str;
 
     langArgs.forEach(function (item) {
@@ -1109,7 +1109,7 @@ function FontName(editor) {
     this._active = false;
 
     // 获取配置的字体
-    var config = editor.config;
+    var config = com.neo4j.Config;
     var fontNames = config.fontNames || [];
 
     // 初始化 droplist
@@ -1455,7 +1455,7 @@ Link.prototype = {
     // 插入链接
     _insertLink: function _insertLink(text, link) {
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         var linkCheck = config.linkCheck;
         var checkResult = true; // 默认为 true
         if (linkCheck && typeof linkCheck === 'function') {
@@ -1828,7 +1828,7 @@ function ForeColor(editor) {
     this.type = 'droplist';
 
     // 获取配置的颜色
-    var config = editor.config;
+    var config = com.neo4j.Config;
     var colors = config.colors || [];
 
     // 当前是否 active 状态
@@ -1872,7 +1872,7 @@ function BackColor(editor) {
     this.type = 'droplist';
 
     // 获取配置的颜色
-    var config = editor.config;
+    var config = com.neo4j.Config;
     var colors = config.colors || [];
 
     // 当前是否 active 状态
@@ -2132,7 +2132,7 @@ Emoticon.prototype = {
         var _this = this;
 
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         // 获取表情配置
         var emotions = config.emotions || [];
 
@@ -2655,7 +2655,7 @@ Image.prototype = {
 
     onClick: function onClick() {
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         if (config.qiniu) {
             return;
         }
@@ -2740,7 +2740,7 @@ Image.prototype = {
     _createInsertPanel: function _createInsertPanel() {
         var editor = this.editor;
         var uploadImg = editor.uploadImg;
-        var config = editor.config;
+        var config = com.neo4j.Config;
 
         // id
         var upTriggerId = getRandom('up-trigger');
@@ -2911,7 +2911,7 @@ Menus.prototype = {
         var _this = this;
 
         var editor = this.editor;
-        var config = editor.config || {};
+        var config = com.neo4j.Config || {};
         var configMenus = config.menus || []; // 获取配置中的菜单
 
         // 根据配置信息，创建菜单
@@ -2935,7 +2935,7 @@ Menus.prototype = {
         var editor = this.editor;
         var $toolbarElem = editor.$toolbarElem;
         var menus = this.menus;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         // config.zIndex 是配置的编辑区域的 z-index，菜单的 z-index 得在其基础上 +1
         var zIndex = config.zIndex + 1;
         objForEach(menus, function (key, menu) {
@@ -3434,7 +3434,7 @@ Text.prototype = {
     // 粘贴事件（粘贴文字 粘贴图片）
     _pasteHandle: function _pasteHandle() {
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         var pasteFilterStyle = config.pasteFilterStyle;
         var pasteTextHandle = config.pasteTextHandle;
         var ignoreImg = config.pasteIgnoreImg;
@@ -4021,8 +4021,8 @@ UploadImg.prototype = {
     // 根据 debug 弹出不同的信息
     _alert: function _alert(alertInfo, debugInfo) {
         var editor = this.editor;
-        var debug = editor.config.debug;
-        var customAlert = editor.config.customAlert;
+        var debug = com.neo4j.Config.debug;
+        var customAlert = com.neo4j.Config.customAlert;
 
         if (debug) {
             throw new Error('wangEditor: ' + (debugInfo || alertInfo));
@@ -4043,7 +4043,7 @@ UploadImg.prototype = {
             return;
         }
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
 
         // 校验格式
         var linkImgCheck = config.linkImgCheck;
@@ -4091,7 +4091,7 @@ UploadImg.prototype = {
 
         // ------------------------------ 获取配置信息 ------------------------------
         var editor = this.editor;
-        var config = editor.config;
+        var config = com.neo4j.Config;
         var uploadImgServer = config.uploadImgServer;
         var uploadImgShowBase64 = config.uploadImgShowBase64;
 

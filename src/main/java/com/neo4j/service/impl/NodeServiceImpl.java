@@ -13,13 +13,14 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-
-/**
+/*
+*
  * @program: enginegraph
  * @description:
  * @author: zzt_NJUST
  * @create: 2019-05-13 16:09
  **/
+
 @Service
 public class NodeServiceImpl implements NodeService {
     GraphDatabaseService graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(new File("D:\\software\\neo4j-community-3.5.6\\data\\databases\\graph.db"));
