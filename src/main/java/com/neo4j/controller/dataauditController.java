@@ -407,7 +407,7 @@ public class dataauditController {
             e.printStackTrace();
             response1.setCode(400);
             e.getMessage();
-            response1.setObject("信息填写错误，请检查");
+            response1.setObject("信息填写错误，");
             return response1;
         }
 
