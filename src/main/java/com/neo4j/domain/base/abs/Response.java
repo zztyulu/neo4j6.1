@@ -12,6 +12,15 @@ package com.neo4j.domain.base.abs;
 public class Response {
     private int code;   //状态码
     private Object object;   //返回实体
+    private int count;
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
 
     public int getCode() {
         return code;

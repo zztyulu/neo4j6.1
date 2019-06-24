@@ -71,6 +71,7 @@ public class AisearchController {
             // System.out.print("Post result is : " + result + "\n");
             response1.setCode(200);
             response1.setObject(datas);
+            response1.setCount(datas.size());
             return response1;
         }catch (Exception e)
         {

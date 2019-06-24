@@ -5,8 +5,6 @@
  * @create: 2019-06-15 15.49
 
 **/
-
-
 var pageSize=$("#pageSize").val();
 var pageNum=$("#pageNum").val();
 //得到总页数
@@ -157,7 +155,22 @@ function page(){
 
         //将新行添加到表格中
         row.appendTo("#table");
+        // var trow = getDataRow(alldata[i]); //定义一个方法,返回tr数据
+        // tbody.appendChild(trow);
+
     }
+    $(function () {
+        $("td").on("mouseenter",function() {
+            console.log("Hello world!");
+            var that = this;
+            var text = $(this).text();
+            layer.tips(text, that,{
+                tips: 1,
+                time: 2000
+            });
+
+        });
+    })
 
     /**给上一步下一步加颜色**/
     //判断是否只有一页
@@ -218,3 +231,29 @@ function search(){
         }
     });
 }
+
+// function getDataRow(h){
+//     var row = document.createElement('tr'); //创建行
+//
+//     var titleCell = document.createElement('td'); //创建第一列id
+//     titleCell.innerHTML = h.title; //填充数据
+//     row.appendChild(titleCell); //加入行  ，下面类似
+//
+//     var contentCell = document.createElement('td');//创建第二列name
+//     contentCell.innerHTML = h.content;
+//     row.appendChild(contentCell);
+//
+//     var infoCell = document.createElement('td');//创建第三列job
+//     infoCell.innerHTML = h.info_from;
+//     row.appendChild(infoCell);
+//
+//     var pathCell = document.createElement('td');//创建第三列job
+//     pathCell.innerHTML = h.path;
+//     row.appendChild(pathCell);
+//
+//     var timeCell = document.createElement('td');//创建第三列job
+//     timeCell.innerHTML = h.time;
+//     row.appendChild(timeCell);
+//
+//     return row; //返回tr数据
+// }
