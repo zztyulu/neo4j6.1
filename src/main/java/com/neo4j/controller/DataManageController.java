@@ -8,9 +8,7 @@ import com.alibaba.fastjson.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.neo4j.domain.base.DataManagement.BSReturnSource;
 import com.neo4j.domain.base.DataManagement.SCReturnSource;
-import com.neo4j.domain.base.TableRecordsChecking.TRCField;
 import com.neo4j.domain.base.abs.Response;
-import com.neo4j.domain.base.tablenumchecking.Msg;
 import com.neo4j.test.RestfulHttpClient;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -405,6 +403,7 @@ public class DataManageController {
             String json = EntityUtils.toString(response.getEntity(),"utf-8");   //获得的为json数据但是里面的中文乱码
             String result = RestfulHttpClient.decodeUnicode(json);                              //转化Json中Unicode为中文
             JSONObject jsonObject = JSONObject.parseObject(result);
+
             //STATUS  SUCCESS  FAILURE
             String  STATUS = (String) jsonObject.get("STATUS");
             if(STATUS.equals("SUCCESS"))
