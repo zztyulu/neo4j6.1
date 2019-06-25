@@ -42,10 +42,11 @@ import java.util.*;
 @RestController
 public class dataauditController {
    //0.0.0.0  192.168.0.101
-    private  String URL_4_1 = "http://127.0.0.1:5501/data-audit/table-num-checking/";
-    private  String URL_4_2 = "http://127.0.0.1:5501/data-audit/table-structure-checking/";
-    private  String URL_4_3 = "http://127.0.0.1:5501/data-audit/table-records-checking/";
-    private  String URL_4_4 = "http://127.0.0.1:5501/data-audit/field-integrity-checking/";
+    private  String URL="http://127.0.0.1:5501/data-audit";
+    private  String URL_4_1 = URL+"/table-num-checking/";
+    private  String URL_4_2 = URL+"/table-structure-checking/";
+    private  String URL_4_3 = URL+"/table-records-checking/";
+    private  String URL_4_4 = URL+"/field-integrity-checking/";
 
  /*
 *  4.1表数一致性校验  TableNumberConsistencyCheck
@@ -407,7 +408,7 @@ public class dataauditController {
             e.printStackTrace();
             response1.setCode(400);
             e.getMessage();
-            response1.setObject("信息填写错误，请检查");
+            response1.setObject("信息填写错误，");
             return response1;
         }
 

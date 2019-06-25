@@ -28,9 +28,6 @@ import java.util.List;
  * @create: 2019-06-14 15.49
  **/
 
-
-
-
 @RestController
 public class AisearchController {
 
