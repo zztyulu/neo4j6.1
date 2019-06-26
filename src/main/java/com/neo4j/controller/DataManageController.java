@@ -66,6 +66,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -84,6 +85,7 @@ public class DataManageController {
         {
             e.printStackTrace();
             response1.setCode(400);
+            response1.setObject("客户端输入异常");
             return response1;
         }
     }
@@ -110,6 +112,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -128,6 +131,7 @@ public class DataManageController {
         {
             e.printStackTrace();
             response1.setCode(400);
+            response1.setObject("客户端输入异常");
             return response1;
         }
     }
@@ -156,6 +160,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -221,6 +226,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -279,6 +285,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -338,7 +345,8 @@ public class DataManageController {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
             System.out.println("字符串解析异常");
-            response1.setCode(406);   //字符串解析异常
+            response1.setCode(406);//字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中
@@ -394,6 +402,7 @@ public class DataManageController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // 将请求实体设置到httpPost对象中

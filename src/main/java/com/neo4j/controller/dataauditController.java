@@ -69,6 +69,7 @@ public class dataauditController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // StringEntity requestJson = new StringEntity(, "utf-8");
@@ -102,6 +103,7 @@ public class dataauditController {
         {
             e.printStackTrace();
             response1.setCode(400);
+            response1.setObject("客户端输入异常");
             return response1;
         }
         return response1;
@@ -128,6 +130,7 @@ public class dataauditController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // StringEntity requestJson = new StringEntity(, "utf-8");
@@ -224,6 +227,7 @@ public class dataauditController {
         {
             e.printStackTrace();
             response1.setCode(400);
+            response1.setObject("客户端输入异常");
             return response1;
         }
         return response1;
@@ -249,6 +253,7 @@ public class dataauditController {
             e.printStackTrace();
             System.out.println("字符串解析异常");
             response1.setCode(406);   //字符串解析异常
+            response1.setObject("字符串解析异常");
             return response1;
         }
         // StringEntity requestJson = new StringEntity(, "utf-8");
@@ -340,6 +345,7 @@ public class dataauditController {
         {
             e.printStackTrace();
             response1.setCode(400);
+            response1.setObject("客户端输入异常");
             return response1;
         }
         return response1;
@@ -413,6 +419,7 @@ public class dataauditController {
         }
 
         response1.setCode(400);
+        response1.setObject("信息填写错误，");
         return response1;
     }
 
