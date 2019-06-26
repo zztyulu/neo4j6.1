@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="943c718d-21a7-457e-9260-8d4f397d2074" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/DataManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/DataManageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neo4j/controller/dataauditController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -843,7 +841,7 @@
       <workItem from="1560933705595" duration="1446000" />
       <workItem from="1561099676153" duration="61496000" />
       <workItem from="1561441845308" duration="1915000" />
-      <workItem from="1561513596719" duration="308000" />
+      <workItem from="1561513596719" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559380680381</created>
@@ -929,11 +927,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561382927366</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="6/26 统一了输出参数为错误码的结果 前端直接输出错误码和对应的错误信息  返回实例 response 对应的字段 code =错误码 object=错误信息     更方便">
+      <created>1561514066444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561514066444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252642000" />
+    <option name="totallyTimeSpent" value="252832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,7 +1002,8 @@
     <MESSAGE value="6/24 主要添加了dataauditController 作为数据审计模块&#10;后续人员主要关注请求路径请求参数，返回值即可" />
     <MESSAGE value="6/27 主要添加了DataManageController 作为数据管理&#10;后续人员主要关注请求路径请求参数，返回值即可" />
     <MESSAGE value="6/24 统一了neo4jConfig driver  修改更方便" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/24 统一了neo4jConfig driver  修改更方便" />
+    <MESSAGE value="6/26 统一了输出参数为错误码的结果 前端直接输出错误码和对应的错误信息  返回实例 response 对应的字段 code =错误码 object=错误信息     更方便" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/26 统一了输出参数为错误码的结果 前端直接输出错误码和对应的错误信息  返回实例 response 对应的字段 code =错误码 object=错误信息     更方便" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
