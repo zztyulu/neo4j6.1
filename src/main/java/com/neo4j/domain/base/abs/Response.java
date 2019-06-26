@@ -3,7 +3,7 @@ package com.neo4j.domain.base.abs;
 
 /**
  * @program:  enginegraph
- * @description:  智能搜索返回体
+ * @description:  所有返回值得类型
  * @author: liuchenyang
  * @create: 2019-06-14 15.49
  **/

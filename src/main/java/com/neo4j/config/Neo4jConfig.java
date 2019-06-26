@@ -1,4 +1,4 @@
-package com.neo4j.config;
+package com.neo4j.Config;
 
 
 import org.neo4j.driver.v1.AuthTokens;

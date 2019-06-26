@@ -1,7 +1,6 @@
 
 package com.neo4j.controller;
 
-import com.neo4j.Config.Neo4jconfig;
 import com.neo4j.domain.base.abs.Pro;
 import com.neo4j.domain.base.abs.BaseNode;
 import com.neo4j.domain.base.abs.Relationship;
@@ -19,8 +18,8 @@ import java.util.List;
 @RequestMapping("/person")
 public class NodeController {
 
-
-    private  Driver driver = Neo4jconfig.driver;
+   @Autowired
+    private  Driver driver;
 
     @Autowired
     private NodeService nodeService;

@@ -3,7 +3,6 @@
  * @版本: V1.0
  */
 package com.neo4j.controller;
-import com.neo4j.Config.Neo4jconfig;
 import com.neo4j.domain.base.abs.BaseNode;
 import com.neo4j.domain.base.abs.Relationship;
 import com.neo4j.service.RelationshipService;
@@ -18,7 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class RelationController {
 
-    private  Driver driver = Neo4jconfig.driver;
+    @Autowired
+    private  Driver driver;
 
     @Autowired
     private RelationshipService relationshipService;
