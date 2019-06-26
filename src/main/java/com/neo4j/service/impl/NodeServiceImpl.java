@@ -23,7 +23,7 @@ import java.util.Map;
 
 @Service
 public class NodeServiceImpl implements NodeService {
-    GraphDatabaseService graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(new File("F:\\neo4j\\neo4j-community-3.5.3\\data\\databases\\graph.db"));
+    GraphDatabaseService graphDb = new GraphDatabaseFactory().newEmbeddedDatabase(new File("D:\\software\\neo4j-community-3.5.6\\data\\databases\\graph.db"));
 
     @Override
     //CREATE (a:Person {name:‘a’, born:1997}) return a;
