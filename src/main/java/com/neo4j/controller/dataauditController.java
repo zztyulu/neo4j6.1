@@ -14,6 +14,7 @@ import com.neo4j.domain.base.TableStructureChecking.DataLD;
 import com.neo4j.domain.base.TableStructureChecking.Field;
 import com.neo4j.domain.base.TableStructureChecking.ReturnSource;
 import com.neo4j.domain.base.abs.*;
+import com.neo4j.domain.base.abs.DataAuditTNC.TNCSourceCollection;
 import com.neo4j.domain.base.fieldIntegrityChecking.FICAfferentParameter;
 import com.neo4j.domain.base.fieldIntegrityChecking.FICReturnSource;
 import com.neo4j.domain.base.tablenumchecking.Msg;
@@ -52,7 +53,7 @@ public class dataauditController {
 *  4.1表数一致性校验  TableNumberConsistencyCheck
 * */
     @RequestMapping(value = "/TableNumberConsistencyCheck")
-    public Object TableNumberConsistencyCheck (@RequestBody SourceCollection sourceCollection)
+    public Object TableNumberConsistencyCheck (@RequestBody TNCSourceCollection tncsourceCollection)
     {
         System.out.println("进入");
         Response response1=new Response();
@@ -64,7 +65,7 @@ public class dataauditController {
 
         StringEntity requestJson ;
         try {
-            requestJson = new StringEntity(mapper.writeValueAsString(sourceCollection), "utf-8");
+            requestJson = new StringEntity(mapper.writeValueAsString(tncsourceCollection), "utf-8");
         } catch (JsonProcessingException e) {
             e.printStackTrace();
             System.out.println("字符串解析异常");
@@ -87,7 +88,7 @@ public class dataauditController {
                 //state：状态标识，为1表示正常返回；为0表示出错；
                 // msg：结果信息，当状态标识为1时，为结果详情，当状态标识为0时，为错误信息String
                 response1.setCode(501);
-                String error = jsonObject.getJSONObject("msg").toString();
+                String error = jsonObject.get("msg").toString();
                 response1.setObject(error);
                 return response1;
             }else if(state==1)
@@ -147,7 +148,7 @@ public class dataauditController {
             {
                 //state：状态标识，为1表示正常返回；为0表示出错；
                 response1.setCode(501);
-                String error = jsonObject.getJSONObject("msg").toString();
+                String error = jsonObject.get("msg").toString();
                 response1.setObject(error);
                 return response1;
             }else if(state==1)
@@ -270,7 +271,7 @@ public class dataauditController {
             {
                 //state：状态标识，为1表示正常返回；为0表示出错；
                 response1.setCode(501);
-                String error = jsonObject.getJSONObject("msg").toString();
+                String error = jsonObject.get("msg").toString();
                 response1.setObject(error);
                 return response1;
             }else if(state==1)
@@ -391,7 +392,7 @@ public class dataauditController {
                 //state：状态标识，为1表示正常返回；为0表示出错；
                 // msg：结果信息，当状态标识为1时，为结果详情，当状态标识为0时，为错误信息String
                 response1.setCode(501);
-                String error = jsonObject.getJSONObject("msg").toString();
+                String error = jsonObject.get("msg").toString();
                 response1.setObject(error);
                 return response1;
             }else if(state==1)

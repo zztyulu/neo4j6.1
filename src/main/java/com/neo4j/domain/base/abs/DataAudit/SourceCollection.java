@@ -5,7 +5,6 @@ import com.neo4j.domain.base.abs.DataAudit.Source;
 /**
  * @program: enginegraph
  * @description: 传参
- *   4.1表数一致性校验传参
  *   4.2 表结构一致性校验
  *   4.3 表记录一致性校验
  * @author: lcy
