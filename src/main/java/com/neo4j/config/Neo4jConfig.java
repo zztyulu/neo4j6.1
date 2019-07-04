@@ -17,6 +17,7 @@ public class Neo4jConfig {
     private String username;
     @Value("${spring.neo4j.password}")
     private String password;
+
     @Bean
     public Driver neo4jDriver(){
         return GraphDatabase.driver(url, AuthTokens.basic(username,password));
